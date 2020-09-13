@@ -1,0 +1,72 @@
+Koch Island
+F->F-F+F+FF-F-F+F
+w=F-F-F-F
+n=2
+alpha0=90
+angle(i)=90
+
+Koch (1st variation)
+F->FF-F-F-F-F-F+F
+w=F-F-F-F
+n=3
+alpha0=90
+angle(i)=90
+
+Koch Islands and Lakes
+F->F+f-FF+F+FF+Ff+FF-f+FF-F-FF-Ff-FFF
+f->ffffff
+w=F+F+F+F
+n=2
+alpha0=90 
+angle(i)=90
+
+
+Hexagonal Gosper curve
+L->L+R++R-L--LL-R+
+R->-L+RR++R+L--L-R
+w=L 
+n=4
+alpha0=60 
+angle(i)=60
+
+
+Axial Tree
+X->F-[[X]+X]+F[+FX]-X
+F->FF
+w=X 
+n=5 
+alpha0=90 
+angle(i)=22.5
+
+Tree
+X->F[+X][-X]FX
+F->FF
+w = X
+n = 7
+alpha0 = 90
+angle(i) = 25.7
+
+Curpet
+F->F+F-F-F+F
+-F
+n = 4
+alpha0 = 90
+angle = 90
+
+
+F->FF-F--F-F
+F-F-F-F
+n=5 
+alpha = 90
+angle = 90
+
+
+Binary tree
+X->[-FX]+FX
+w=FX
+angle = 40
+
+
+F->FF+F-F+F+FF
+w = F+F+F+F
+angle 90
